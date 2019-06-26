@@ -1,3 +1,4 @@
+/* index html */
 html, body {
     height: 100%;
     font-family: 'Sofia Pro', sans-serif;
@@ -107,7 +108,7 @@ nav{
     width: 15%;
     padding: 20px;
 }
-
+/* tablet view */
 @media (max-width: 800px){
     .nav{
         width: 90%;
@@ -120,7 +121,7 @@ nav{
         justify-content: space-around;
     }
     
-
+/* mobile view */
 @media (max-width: 500px){
     .nav{
         width: 100%;

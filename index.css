@@ -1,0 +1,137 @@
+/* index html */
+html, body {
+    height: 100%;
+    font-family: 'Sofia Pro', sans-serif;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.container{
+       max-width: 1100px;
+        width: 100%;
+        
+        
+        
+        background: white;
+        border: 10px solid #000000;
+        box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-logo{
+    width: 5%;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-evenly;
+}
+ 
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.fishy{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    text-align: center;
+    width: 100%;
+}
+
+.fish{
+    height: 100%;
+    width: 90%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+
+}
+       h1{
+        font-family: 'Sofia Pro';
+        font-size: 18pts;
+        
+}
+    p{
+    display: flex;
+    font-family: 'Sofia Pro';
+    font-size: 14pts;
+
+}
+
+.home-container {
+    width: 90%; 
+    margin: 15px auto 15px auto;  
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start;
+    
+    
+   }
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15%;
+    padding: 20px;
+}
+.about-us{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15%;
+    padding: 20px;
+}
+.our-app{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15%;
+    padding: 20px;
+}
+.sign-up{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15%;
+    padding: 20px;
+}
+/* tablet view */
+@media (max-width: 800px){
+    .nav{
+        width: 90%;
+        text-align: center;
+        justify-content: space-around;
+    }
+    nav{
+        width: 70%;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+/* mobile view */
+@media (max-width: 500px){
+    .nav{
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+    }
+    nav{
+        width: 70%;
+        text-align: center;
+        justify-content: space-around;
+    }
+}
+}

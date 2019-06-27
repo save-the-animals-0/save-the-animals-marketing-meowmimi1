@@ -14,8 +14,7 @@ body{
 
 .container{
        max-width: 1100px;
-        width: 100%;
-        
+        width: 100%; 
         background: white;
 }
 
@@ -119,6 +118,29 @@ nav{
     width: 20%;
     
 }
+.members-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-members div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    align-items: center;
+}
+.people{
+    display: flex;
+    height: 50%;
+    width: 20%;
+  
+}
 .our-app{
     display: flex;
     flex-wrap: wrap;
@@ -132,7 +154,7 @@ nav{
     padding: 20px;
 }
 /* tablet view */
-@media (max-width: 800px) and (min-width: 501px){
+@media (max-width: 800px) {
     .nav{
         width: 80%;
         text-align: center;

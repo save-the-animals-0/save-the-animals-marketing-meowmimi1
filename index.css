@@ -183,20 +183,21 @@ nav{
 
     
 /* mobile view */
-@media (max-width: 500px) and (min-width: 300px) {
+@media (max-width: 500px) {
     .nav{
         width: 100%;
         text-align: center;
         justify-content: space-around;
     }
     nav{
-        width: 70%;
+        width: 100%;
         text-align: center;
         justify-content: space-around;
+        margin: 15px 0px;
     }
     .about-container {
-        width: 100%; 
-        /* margin: 15px auto 15px auto;   */
+        width: 95%; 
+        margin: 0 auto;
         display: flex;
         /* flex-wrap: wrap;  */
         justify-content: space-evenly; 
@@ -204,6 +205,20 @@ nav{
         /* align-items: flex-start; */
         
        }
+       .about-us{
+        width: 98%;
+       }
+       .our-history{
+        width: 100%;
+       }
+       .our-team{
+        width: 100%;
+       }
+       .container-logo{
+        width: 100%;
+        padding: 0px;
+    }
+
 }
 
 

@@ -14,7 +14,7 @@ paragraph.addEventListener('click' , (event) => {
 });
 
 const h1 = document.querySelectorAll('h1');
-h1[0].addEventListener('click', (event) => event.target.style.color = 'crimson');
+h1[0].addEventListener('click', (event) => event.target.style.color = 'lightblue');
 h1[0].addEventListener('click', (event) => event.stopPropagation());
 const foot = document.querySelector('footer');
     foot.addEventListener('mouseover', function(event){
